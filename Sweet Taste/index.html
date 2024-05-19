@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Taste</title>
+    <link rel="shortcut icon" href="./images/logoST.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title"><img src="./images/logoST.png" class="logo"></h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Sobre nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Catalogo</a>
+                </li>
+               
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                
+
+                <img src="./images/closearrow.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/closearrow.svg" alt="" class="nav__img">
+            </div>
+
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Sweet Taste</h1>
+            <p class="hero__paragraph">La reposteria más dulce
+                para tus mejores momentos</p>
+                <a href="#" class="cta">Conocenos</a>
+            </section>
+
+    
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Sobre nosotros</h2>
+            <p class="about__paragraph">Comprometidos con la labor de ofrecer los sabores más exoticos y deliciosos del mercado, postres, pasteles y
+                 snacks gourmet ideales incluso para los paladares más exigentes. Sweet Taste es un emprendimiento propuesto en el 2022 por Isabela Sánchez Ramírez el principal objetivo de esta reposteria es ofrecer servicios de preparación 
+                 de pasteles, postres y todo tipo de snacks dulces para distintos eventos especiales tanto de forma presencial en sus distintas sedes, asi como a tráves de esta plataforma.</p>
+
+                <div class="about__main">
+
+
+
+                    <article class="about__icons">
+                        <img src="./images/mision.png" class="about__icon">
+                        <h3 class="about__title">Misión</h3>
+                        <p class="about__paragraph">Sweet taste se centrará en ofrecer un excelente servicio al cliente brindando productos (pasteles, postres, snacks)
+                             para eventos especiales, además de destacarse por sabores exclusivos y experiencias inolvidables para momentos especiales.</p>
+                    </article>
+
+                    <article class="about__icons">
+                        <img src="./images/vision.png" class="about__icon">
+                        <h3 class="about__title">Visión</h3>
+                        <p class="about__paragraph">La visión de Sweet taste es llegar a ser reconocida como la mejor repostería a nivel nacional y ofrecer excelentes
+                             servicios de atención al cliente, preparación de todo tipo de comida dulce y asesoría organizacional para cada tipo de evento.</p>
+                    </article>
+
+                    
+                </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Ubicación</h2>
+                    <p class="knowledge__paragraph">Estamos ubicados en la zona centro de la ciudad de Medellín
+                        especificamente en el barrio las flores
+
+                    </p>
+
+                        <a href="https://goo.gl/maps/tuexNAjRZJZjwx2k7" class="cta">ver en google maps</a>
+
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/local.jpg" alt="" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Catálogo</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <!--<p class="price__name"></p>-->
+                    <h3 class="price_price">Pasteles/tortas</h3>
+
+                    <div class="price__items">
+                        <p class="price__features"><img src="./images/tortas.jpg" class="catalogo"></p>
+                       
+                    </div>
+                    <button id="open" class="bcatalogo">Ver más</button>
+
+                </div>
+
+                <div class="price__element price__element--best">
+                    <!--<p class="price__name"></p>-->
+                    <h3 class="price_price">Postres</h3>
+
+                    <div class="price__items">
+                        <p class="price__features"><img src="./images/postres.jpg" class="catalogo"></p>
+
+
+                    </div>
+                    <button id="open" class="bcatalogo">Ver más</button>
+
+                    
+
+                </div>
+
+                <div class="price__element">
+                    <!--<p class="price__name"></p>-->
+                    <h3 class="price_price">Snacks</h3>
+
+                    <div class="price__items">
+                        <p class="price__features"><img src="./images/snacks.jpg" class="catalogo"></p>
+
+
+                    </div>
+                    <button id="open" class="bcatalogo">Ver más</button>
+
+                    <div class="modal-container" id="modal_container">
+                        <div class="modal">
+                            <h1>Pasteles/ tortas</h1><br>
+                            <div class="c-img">
+                                <img src="./images/postres.jpg" class="imgcatalogo">
+                                <p class="p-c">lorem akjflisajglekñgolfzfdlfj</p>
+
+                            </div>
+                            <div class="c-img">
+                                <img src="./images/postres.jpg" class="imgcatalogo">
+
+                            </div>
+                            <div class="c-img">
+                                <img src="./images/postres.jpg" class="imgcatalogo">
+
+                            </div>
+
+
+
+                                 <button class="bcatalogo" id="close">Cerrar</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Te ofrecemos <span class="testimony__course">
+                            Servicio de reserva</span></h2>
+
+                            <p class="testimony__review">
+                                Contamos con una excelente atención al cliente, por medio de esta plataforma virtual y también de manera presencial
+                        puedes hacer tu reserva por esta pagina o por nuestra App, ahí puedes solicitar todos los productos que requieras, la entrega se hará
+                        lo más pronto posible y de igual forma puedes dirigirte a nuestra sede principal y hacer la reserva presencialmente.
+                            </p><br>
+
+                            <a href="#" class="cta">Relizar reserva</a>
+
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/reserva.jpg" class="testimony__img">
+                    </figure>
+
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Te ofrecemos servicio <span class="testimony__course">
+                            domicilio</span></h2>
+
+                            <p class="testimony__review">
+                                Ofrecemos servicio a domicilio por 
+                                toda la ciudad, pues hacer tu pedido
+                                a través de nuestro chat en WhatsApp
+                                3052661092 o comunicandote a la linea telefonica 5722028
+        
+                            </p><br>
+
+                            <a href="https://wa.link/kdu7zn" class="cta">ir al chat de whatsApp</a>
+                        
+
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/domicilio.jpg" class="testimony__img">
+                    </figure>
+
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Te ofrecemos servicio <span class="testimony__course">
+                            Personalizado</span></h2>
+
+                            <p class="testimony__review">
+                                En este servicio podrás tener total libertad de solicitar
+                                la preparación de tortas/pasteles, postres o snacks de la temática
+                                que desees, según la ocasión especial que vayas a celebrar.
+                            </p><br>
+
+                            <a href="#" class="cta">ver catálogo </a>
+
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/personalizado.jpg" class="testimony__img">
+                    </figure>
+
+                </section>
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+
+        
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="quiestions__paragraph">
+                En esta sección encontrarás algunas de las preguntas que más suelen hacernos
+                con respecto a nuestros servicios.
+            </p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Sus productos son para todo tipo de ocasión?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            ¡Por supuesto! todos nuestros pasteles/tortas, postres y snacks son exclusivos para 
+                            todo tipo de ocasión como matrimonio, bautizos, primera comunión, quinces,cumpleaños
+                            o sencillamente para cualquier celebración en la que quieras compartir estas delicias.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Puedo hacer mi pedido por vía telefonica o por chat?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Desde luego, puedes llamar a nuestra línea telefonica y hacer tu pedido, o bien
+                            escribirnos a nuestro whatsApp y uno de nuestros asesores te ayudará
+                        </p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuáles son los medios de pago?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Recibimos pagos por PSE, tarjetas debido y credito, efectivo, nequí
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuál es su horario de atención?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Trabajamos de lunes a sábado entre las 8: 00 am a 7:00 pm y los domingos desde
+                            las 8: 00 am a 4:00 pm.
+                        </p>
+                    </div>
+                </article>
+            </section>
+        
+
+
+       <section class="questions__offer">
+        <h2 class="subtitle">trabaja con nosotros</h2>
+        <p class="questions__copy">Sí eres un excelente repostero, tienes experiencia en administración o servicio
+            al cliente postulate a las vacantes que tenemos disponibles para ti.
+        </p>
+
+        <button id="open" class="bcatalogo">Ver vacantes</button>
+
+        <div class="modal-container" id="modal_container">
+            <div class="modal">
+                <h1>Pasteles/ tortas</h1><br>
+                <div class="c-img">
+                    <img src="./images/postres.jpg" class="imgcatalogo">
+                    <p class="p-c"><b>Torta Sweet Taste</b><br>
+                        Deliciosa torta de vainilla con centro de arequipe, envuelta en crema de baileys y decorada con frutos rojos
+                    </p>
+
+                </div>
+                <div class="c-img">
+                    <img src="./images/postres.jpg" class="imgcatalogo">
+
+                </div>
+                <div class="c-img">
+                    <img src="./images/postres.jpg" class="imgcatalogo">
+
+                </div>
+                </div>
+                </div>
+
+
+       </section>
+       </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container ">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Sweet Taste</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Sobre nosotros</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Servicios</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Catalogo</a>
+                    </li>
+                   
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form  class="footer__form">
+                <h2 class="footer__newletter">Quejas y reclamos</h2>
+                <div class="footer__inputs">
+                    <input type="text" placeholder="Escribe aquí" class="footer__input">
+                    <input type="submit" value="Enviar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/instagram.png" alt="" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/facebook.png" alt="" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.png" alt="" class="footer__img"></a>
+
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Sweet Taste</h3>
+        </section>
+    </footer>
+
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+
+
+</body>
+</html>
